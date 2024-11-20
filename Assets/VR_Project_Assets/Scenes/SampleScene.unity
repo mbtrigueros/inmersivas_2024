@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.37647215, g: 0.36552152, b: 0.6981132, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.54363495, g: 0.53453183, b: 0.7924528, a: 0.050980393}
   m_FogMode: 2
-  m_FogDensity: 0.15
+  m_FogDensity: 0.12
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0, g: 0.048570886, b: 0.1509434, a: 1}
@@ -653,13 +653,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 821428640}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.70579165, z: -0.70841956, w: 0}
+  m_LocalRotation: {x: 0.7069726, y: -0, z: -0, w: 0.707241}
   m_LocalPosition: {x: 47.14549, y: 7.9643908, z: -2.0364656}
-  m_LocalScale: {x: 4.182, y: 5.406908, z: 4.182}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 451161470}
-  m_LocalEulerAnglesHint: {x: 90.211, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &821428642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,14 +694,14 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 1, g: 0.8591049, b: 0, a: 1}
-  m_Intensity: 1
-  m_Range: 12.41
-  m_SpotAngle: 29.931171
-  m_InnerSpotAngle: 21.733253
+  m_Color: {r: 0.9150943, g: 0.6373616, b: 0.12517802, a: 1}
+  m_Intensity: 1500
+  m_Range: 10
+  m_SpotAngle: 66.38689
+  m_InnerSpotAngle: 31.173769
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -736,10 +736,10 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 6.8749294, y: 4.307775}
+  m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
+  m_ColorTemperature: 4247
+  m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
@@ -832,7 +832,7 @@ Transform:
   m_GameObject: {fileID: 931430336}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 47.14549, y: 6.9643908, z: 6.9635344}
+  m_LocalPosition: {x: 47.14549, y: 6.9643908, z: 7.9635344}
   m_LocalScale: {x: 4.182, y: 5.406908, z: 4.182}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -872,9 +872,9 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0, g: 1, b: 0.95917225, a: 1}
-  m_Intensity: 1
-  m_Range: 4.32
+  m_Color: {r: 0, g: 0.4811321, b: 0.46051213, a: 1}
+  m_Intensity: 100
+  m_Range: 10
   m_SpotAngle: 79.29834
   m_InnerSpotAngle: 71.10044
   m_CookieSize: 10
@@ -910,14 +910,14 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 191
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 6.8749294, y: 4.307775}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
+  m_BounceIntensity: 1000
+  m_ColorTemperature: 12679
+  m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
