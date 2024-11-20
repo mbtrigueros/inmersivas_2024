@@ -37,8 +37,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amplitude: 0.45
-    - _Blend: 0.048
+    - _Amplitude: 0
+    - _Blend: 0
     - _NoiseScale: 10
     m_Colors:
     - _Speed: {r: 0.76, g: 0.8, b: 0, a: 0}
